@@ -1,0 +1,56 @@
+Problem:    maxflow
+Rows:       9
+Columns:    15
+Non-zeros:  27
+Status:     OPTIMAL
+Objective:  MAXFLOW = 7 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 MAXFLOW      B              7                             
+     2 NODE1        NS             0            -0             =         < eps
+     3 NODE2        NS             0            -0             =         < eps
+     4 NODE3        NS             0            -0             =         < eps
+     5 NODE4        NS             0            -0             =            -1 
+     6 NODE5        NS             0            -0             =         < eps
+     7 NODE6        NS             0            -0             =            -1 
+     8 NODE7        NS             0            -0             =         < eps
+     9 NODE8        NS             0            -0             =         < eps
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x01          B              1             0             9 
+     2 x02          B              0             0             5 
+     3 x03          B              6             0             6 
+     4 x14          NU             1             0             1             1 
+     5 x15          B              0             0             7 
+     6 x25          NL             0             0             3         < eps
+     7 x32          NL             0             0             8         < eps
+     8 x37          B              2             0             3 
+     9 x38          B              4             0            15 
+    10 x46          B              1             0             5 
+    11 x47          NL             0             0             9            -1 
+    12 x57          NL             0             0             6         < eps
+    13 x69          B              1             0            11 
+    14 x79          NU             2             0             2             1 
+    15 x89          NU             4             0             4             1 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
