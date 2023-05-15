@@ -1,0 +1,6 @@
+5 # http://www.benricho.org/chimei/latlng_data.html
+0       Hokkaido        43.0646147      141.3468074
+1       Tokyo           35.6894875      139.6917064
+2       Aichi           35.1801883      136.9065647
+3       Osaka           34.6862971      135.5196609
+4       Fukuoka         33.6065756      130.418297
